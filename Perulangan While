@@ -1,0 +1,17 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+int main() {
+  char pilih = 'n';
+  while(pilih != 'x') {
+    cout << "HI! Ini pernyataan di dalam while" << endl;
+    cout << "\nKeterangan : " << endl;
+    cout << "- Karakter 'x' untuk keluar dari looping" << endl;
+    cout << "- Karakter lainnya untuk looping" << endl;
+    cout << endl;
+    cout << "Keluar dari looping. Ini pernyataan di luar while." <<endl;
+  _getche();
+  return 0;
+}
+}
